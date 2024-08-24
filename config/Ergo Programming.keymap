@@ -333,16 +333,16 @@
 
 /* Custom Defined Behaviors */
 / {
-
-ht {
-    compatible = "zmk,behavior-hold-tap";
-    #binding-cells = <2>;
-    flavor = "tap-preferred";
-    tapping-term-ms = <400>;
-    require-prior-idle-ms = <200>;
-    bindings = <&kp>, <&kp>;
-};
-
+    behaviors: {
+        ht: ht {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <400>;
+            require-prior-idle-ms = <200>;
+            bindings = <&kp>, <&kp>;
+        };
+    };
 };
 
 /* Automatically generated macro definitions */
