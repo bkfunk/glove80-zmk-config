@@ -369,10 +369,10 @@
             bindings = <
                &kp F1    &kp F2   &kp F3        &kp F4        &kp F5                                                                                   &kp F6       &kp F7       &kp F8       &kp F9        &kp F10
             &kp PG_UP    &kp N1   &kp N2        &kp N3        &kp N4  &kp N5                                                                  &kp N6   &kp N7       &kp N8       &kp N9       &kp N0        &kp F11
-            &kp PG_DN     &kp Q    &kp W       &ht [ E       &ht ] R   &kp T                                                                   &kp Y    &kp U        &kp I        &kp O        &kp P  &ht RSHFT F12
-        &ht LSHFT ESC     &kp A    &kp S  &ht LPAREN D  &ht RPAREN F   &kp G                                                                   &kp H    &kp J        &kp K        &kp L   &lt 4 SEMI    &ht LS(') '
-           &caps_word     &kp Z    &kp X   &ht LS([) C   &ht LS(]) V   &kp B  &sk LSHFT  &kp LCTRL    &lower  &kp LGUI  &kp RCTRL  &sk RSHFT   &kp N    &kp M  &ht LS(,) ,  &ht LS(.) .  &ht / LS(/)    &ht LS(\) \
- &magic LAYER_Magic 0  &kp HOME  &kp END      &kp BSPC       &kp TAB          &kp SPACE  &sk LCTRL  &sk LALT  &sk RALT  &sk RCTRL  &kp SPACE          &kp RET      &kp DEL    &ht (-) -  &ht LS(=) =    &ht LS(`) `
+            &kp PG_DN     &kp Q    &kp W       &ht LBKT E       &ht RBKT R   &kp T                                                                   &kp Y    &kp U        &kp I        &kp O        &kp P  &ht RSHFT F12
+        &ht LSHFT ESC     &kp A    &kp S  &ht LPAR D  &ht RPAR F   &kp G                                                                   &kp H    &kp J        &kp K        &kp L   &lt 4 SEMI    &ht LS(SQT) SQT
+           &caps_word     &kp Z    &kp X   &ht LS(LBKT) C   &ht LS(RBKT) V   &kp B  &sk LSHFT  &kp LCTRL    &lower  &kp LGUI  &kp RCTRL  &sk RSHFT   &kp N    &kp M  &ht LS(COMMA) COMMA  &ht LS(DOT) DOT  &ht SLASH LS(SLASH)    &ht LS(BACKSLASH) BACKSLASH
+ &magic LAYER_Magic 0  &kp HOME  &kp END      &kp BSPC       &kp TAB          &kp SPACE  &sk LCTRL  &sk LALT  &sk RALT  &sk RCTRL  &kp SPACE          &kp RET      &kp DEL    &ht LS(MINUS) MINUS  &ht LS(EQUAL) EQUAL    &ht LS(GRAVE) GRAVE
             >;
         };
 
