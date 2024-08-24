@@ -32,13 +32,13 @@
 #define LAYER_Lower 0
 #endif
 
-/* Custom Device-tree */
+/* Custom Device-tree 
 &mt {
     tapping-term-ms = <400>;
 };
 &caps_word {
     continue-list = <UNDERSCORE MINUS>;
-};
+};*/
 /* Empty underglow layer definition (for copy-paste)
         mylayer {
             bindings = <
@@ -335,6 +335,7 @@
 / {
     behaviors: {
         ht: ht {
+            label = "HOLD_TAP";
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
